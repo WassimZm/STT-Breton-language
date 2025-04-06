@@ -6,7 +6,7 @@ https://arbres.iker.cnrs.fr/index.php?title=Arbres:Le_site_de_grammaire_du_breto
 * ARBRES is a research website created by Mélanie Jouitteau from 2007.
 * It's goal is to simplify and clarify the grammar and
 the structure of Breton langauge for researchers and people
-interested its preservation.
+interested in its preservation.
 * The website introduces thousands of articles explaining Breton
-Grammar and its syntax which can be useful in case of making
-researches and learning / teaching the language.
+Grammar and syntax which can be useful in case of making
+researches, learning and teaching the language.

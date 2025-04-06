@@ -10,3 +10,4 @@ interested in its preservation.
 * This ressource introduces thousands of articles explaining Breton
 Grammar and syntax which can be useful in case of making
 researches, learning and teaching the language.
+### My Exploration Process

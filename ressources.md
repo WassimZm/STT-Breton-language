@@ -11,3 +11,6 @@ interested in its preservation.
 Grammar and syntax which can be useful in case of making
 researches, learning and teaching the language.
 ### My Exploration Process
+* Understanding the goal and the context of the website.
+* Navigation through main categories.
+* Exploration of some grammatical rules of the Breton language.

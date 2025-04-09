@@ -1,6 +1,5 @@
-# Biblio
-## Common Voice
-### What is Common Voice?
+# Common Voice
+## What is Common Voice?
 * Common Voice is a famous project made by Mozilla in 2019, it represents a 
 large dataset of voice recordings in many languages including low
 ressources or endangered languages such as Breton.
@@ -10,7 +9,7 @@ interested in : Breton.
 * The advantage of Common Voice is that it doesnt only focus on widely
 spoken languages ( such as English or French ), it also includes many
 other languages with a limited number of speakers.
-### Exploring Breton Speech Resources within Common Voice :
+## Exploring Breton Speech Resources within Common Voice :
 Breton language is one of the languages included in the Mozilla Common Voice, By exploring the Breton part of the dataset, I found that it provides :
 * A different versions of Breton voice recordings collection with
 the latest version is the largest and most diversed one.
@@ -22,5 +21,3 @@ dataset.
 recorded hours ) published in March 19, 2025, with a size of 
 670.1 MB.
 * This version includes 216 different voices in an MP3 audio format.
-
-S

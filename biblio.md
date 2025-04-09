@@ -17,4 +17,9 @@ the latest version is the largest and most diversed one.
 * Some segments from the original dataset that can be used for
 testing models on a small amounts of data before using the large
 dataset.
-* The latest version of Breton daatset is called : Common Voice Corpus 21.0
+* The latest version of Breton daatset is called : Common Voice Corpus 21.0.
+* It is a collection of 27 validated hours of Speech ( from a 29
+recorded hours ) published in March 19, 2025, with a size of 
+670.1 MB.
+* This version includes 216 different voices in an MP3 audio format.
+

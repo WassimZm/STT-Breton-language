@@ -8,3 +8,4 @@
 * The folders are accompanied by two additional files: `metadata.jsonl` and `metadata.tsv`.
 * The additional files provide the transcriptions corresponding to each audio file in two different formats : JSONL and TSV.
 * The dataset includes Python scripts for calculating audio file durations and converting between JSONL and TSV formats.
+## ✅ Important Notes / Observations

@@ -12,7 +12,7 @@ other languages with a limited number of speakers.
 ## Exploring Breton Speech Resources within Common Voice :
 Breton language is one of the languages included in the Mozilla Common Voice, By exploring the Breton part of the dataset, I found that it provides :
 * A different versions of Breton voice recordings collection with
-the **latest version** is the **largest** and **most diversed** one.
+the **latest version** is the largest and most diversed one.
 * Some segments from the original dataset that can be used for
 testing models on a small amounts of data before using the large
 dataset.

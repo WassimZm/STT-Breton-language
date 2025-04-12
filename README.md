@@ -1,2 +1,2 @@
 # STT-Breton-language
-Developing a Speech-to-Text system for the Breton language, a Celtic regional language spoken in France and considered as a low-resource language. 
+This project focuses on develloping a speech-to-text system for Breton language, a Celtic regional language spoken in France.

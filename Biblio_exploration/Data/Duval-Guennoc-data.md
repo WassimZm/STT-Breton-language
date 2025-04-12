@@ -9,3 +9,4 @@
 * The additional files provide the transcriptions corresponding to each audio file in two different formats : JSONL and TSV.
 * The dataset includes Python scripts for calculating audio file durations and converting between JSONL and TSV formats.
 ## ✅ Important Notes / Observations
+* This data provides 5 hours of speech data.

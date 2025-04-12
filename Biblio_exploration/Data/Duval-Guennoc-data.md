@@ -1,6 +1,6 @@
 # Breton ASR open data 
 ## What is ASR open data?
-* It represents an open-source collection of data available online for speech-To-Text research and applications in the Breton language.
+* An open-source dataset for Breton Speech-to-Text research, freely available online.
 * It is a colection of video and audio with their corresponding transcriptions and it contains about **5 hours** of speech data.
 ## Data structure
 * Breton ASR open data is organized into 5 directories.

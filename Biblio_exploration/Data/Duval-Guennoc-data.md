@@ -5,4 +5,4 @@
 ## Data structure
 * Breton ASR open data is organized into 5 directories.
 * Each directory corresponds to a specific type of speech content (such as Documentary, Interview, Dialogue, etc.), with each containing audio or video data along with their transcriptions.
-* The folders are accompagned with two other files called `metadata.jsonl` and `metadata.tsv`
+* The folders are accompanied by two additional files: `metadata.jsonl` and `metadata.tsv`

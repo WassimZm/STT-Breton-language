@@ -5,8 +5,5 @@ for Speech-To-Text recognization.
 * It was made for generating transcriptions from a video or an audio in Breton
 with taking in concideration Capital letters ( for proper nouns )
 and number, dates, quantities ... etc.
-* Duval-Guennoc designed a model called Vosk model for speech to
-text recognization in Breton language, it is based on a previous
-ancient model called Kaldi.
 * The model is trained on 60 hours of Speech, tho it doesn't offer
 a very high performance.

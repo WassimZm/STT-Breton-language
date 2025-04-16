@@ -7,3 +7,4 @@ with taking in concideration Capital letters ( for proper nouns )
 and number, dates, quantities ... etc.
 * The model is trained on 60 hours of Speech, tho it doesn't offer
 a very high performance.
+## What is Anaouder based on?

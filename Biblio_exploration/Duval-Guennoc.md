@@ -8,9 +8,9 @@ and number, dates, quantities ... etc.
 * The model is trained on 60 hours of Speech, tho it doesn't offer
 a very high performance.
 ## What is Anaouder based on?
-Anaouder is based on Vosk, a high-level API for speech-to-text, which is itself based on a low-level toolkit called Kaldi
+Anaouder is based on **Vosk**, a high-level API for speech-to-text, which is itself based on a low-level toolkit called **Kaldi**
 ### Vosk
 * It is a library that offers the ability of using pre-trained models for speech recognition.
-* It supports python and some otherprogramming langauges.
+* It supports python and some other programming langauges.
 ### Kaldi
 * It is a complex lowlevel toolkit that offers a collection of tools such as : audio processing and feature extraction.

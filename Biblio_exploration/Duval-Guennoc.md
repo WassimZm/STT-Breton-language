@@ -14,3 +14,4 @@ Anaouder is a python package based on **Vosk**, a high-level API for speech-to-t
 * It supports python and some other programming langauges.
 ### Kaldi
 * It is a complex lowlevel toolkit that offers a collection of tools such as : audio processing and feature extraction.
+* It provides the core algorithm to build speech-to-text systems from scratch.

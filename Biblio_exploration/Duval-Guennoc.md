@@ -34,4 +34,4 @@ Provide instructions and details for using the model — in Breton `README.md` a
 #### LICENSE
 Specifies the terms and conditions under which the project can be used, modified, and shared.
 #### CHANGELOG.md 
-* Describes project's versions since it's creation.
+Documents the history of changes, updates, and versions of the project since its creation.

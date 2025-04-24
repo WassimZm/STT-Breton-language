@@ -17,3 +17,4 @@ Anaouder is a python package based on **Vosk**, a high-level API for speech-to-t
 * It provides the core algorithm to build speech-to-text systems from scratch.
 
 ## Anaouder project structure
+### Supporting Files

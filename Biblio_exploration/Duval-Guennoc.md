@@ -41,8 +41,8 @@ Stores the current version of the project : VERSION = "1.0.3".
 ### mikro.py :
 * This script allows real-time transcription from a microphone.
 * It calls the project's main modules for:  
-  - Loading ASR model (`load_model`)  
-  - Normalization and post-processing of the text (`post_process_text`)  
-  - Sentence tokenization / detokenization (`tokenize` & `detokenize`)  
-  - Getting Anaouder version (`VERSION`)  
+  - Loading ASR model (`load_model`).
+  - Normalization and post-processing of the text (`post_process_text`).
+  - Sentence tokenization / detokenization (`tokenize` & `detokenize`).
+  - Getting Anaouder version (`VERSION`).
 

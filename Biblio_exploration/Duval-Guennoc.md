@@ -18,20 +18,20 @@ Anaouder is a python package based on **Vosk**, a high-level API for speech-to-t
 
 ## Anaouder project structure
 ### Supporting Files
-#### setup.py
+#### setup.py :
 * Defines Metadata, configuration and distribution of project
 package.
 * It defines command-line tools that users can type while using the
 model.
 * Setup function, which is the function that python reads while
 installing the project.
-#### requirements.txt
+#### requirements.txt :
 Lists all Python packages and dependencies needed to run the project smoothly.
-#### projects_using_vosk.md
+#### projects_using_vosk.md :
 Lists example projects and applications that utilize the Vosk speech recognition model.
-#### README.md + README-fr.md
+#### README.md + README-fr.md :
 Provide instructions and details for using the model — in Breton `README.md` and in French `README-fr.md`.
-#### LICENSE
+#### LICENSE :
 Specifies the terms and conditions under which the project can be used, modified, and shared.
-#### CHANGELOG.md 
+#### CHANGELOG.md :
 Documents the history of changes, updates, and versions of the project since its creation.

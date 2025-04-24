@@ -35,6 +35,6 @@ Specifies the terms and conditions under which the project can be used, modified
 #### CHANGELOG.md :
 Documents the history of changes, updates, and versions of the project since its creation.
 
-## Anaouder model
+## Anaouder project structure : Anaouder model
 ### version.py :
 Stores the current version of the project : VERSION = "1.0.3".

@@ -37,3 +37,5 @@ Specifies the terms and conditions under which the project can be used, modified
 Documents the history of changes, updates, and versions of the project since its creation.
 
 ### Anaouder model
+#### version.py :
+Stores the current version of the project : VERSION = "1.0.3"

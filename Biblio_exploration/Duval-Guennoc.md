@@ -38,3 +38,11 @@ Documents the history of changes, updates, and versions of the project since its
 ## Anaouder project structure : Anaouder model
 ### version.py :
 Stores the current version of the project : VERSION = "1.0.3".
+### mikro.py :
+* It is a script that allows live transcription from a microphone  
+* It calls the project main modules for:  
+  - Loading ASR model (`load_model`)  
+  - Normalization and post-processing of the text (`post_process_text`)  
+  - Sentence tokenization / detokenization (`tokenize` & `detokenize`)  
+  - Getting Anaouder version (`VERSION`)  
+

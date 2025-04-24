@@ -26,14 +26,11 @@ model.
 * Setup function, which is the function that python reads while
 installing the project.
 #### requirements.txt
-* It lists all the packages required for the project to run
-properly.
+* Lists all Python packages and dependencies needed to run the project smoothly.
 #### projects_using_vosk.md
 * It lists some projects that use Vosk model.
-#### README.md
-* It gives informations about using the model in Breton language
-#### README-fr.md
-* It gives informations about using the model in French language
+#### README.md + README-fr.md
+Provide instructions and details for using the model — in Breton 'README.md' and in French 'README-fr.md'.
 #### LICENSE
 * Describes the license of the project.
 #### CHANGELOG.md 

@@ -30,7 +30,7 @@ installing the project.
 #### projects_using_vosk.md
 * It lists some projects that use Vosk model.
 #### README.md + README-fr.md
-Provide instructions and details for using the model — in Breton 'README.md' and in French 'README-fr.md'.
+Provide instructions and details for using the model — in Breton ''README.md'' and in French ''README-fr.md''.
 #### LICENSE
 * Describes the license of the project.
 #### CHANGELOG.md 

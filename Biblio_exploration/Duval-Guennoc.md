@@ -40,6 +40,9 @@ Documents the history of changes, updates, and versions of the project since its
 Stores the current version of the project : VERSION = "1.0.3".
 ### utils.py :
 This file provides functions for logging messages with colors, converting time, dropping comments and loading the dataset.
+### normalization.py :
+* This script is designed to be automatically used after the transcription happens.
+* It's main role is to normalize the resulting text from transcription ( removing unwanted characters ... etc ).
 ### mikro.py :
 * This script allows real-time transcription from a microphone.
 * It calls the project's main modules for:  
@@ -47,8 +50,6 @@ This file provides functions for logging messages with colors, converting time, 
   - Normalization and post-processing of the text (`post_process_text`).
   - Sentence tokenization / detokenization (`tokenize` & `detokenize`).
   - Getting Anaouder version (`VERSION`).
-### normalization.py :
-* This script is designed to be automatically used after the transcription happens.
-* It's main role is to normalize the resulting text from transcription ( removing unwanted characters ... etc ).
+
 
 

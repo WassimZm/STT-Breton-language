@@ -35,3 +35,5 @@ Provide instructions and details for using the model — in Breton `README.md` a
 Specifies the terms and conditions under which the project can be used, modified, and shared.
 #### CHANGELOG.md :
 Documents the history of changes, updates, and versions of the project since its creation.
+
+### Anaouder model

@@ -28,10 +28,10 @@ installing the project.
 #### requirements.txt
 Lists all Python packages and dependencies needed to run the project smoothly.
 #### projects_using_vosk.md
-It lists some projects that use Vosk model.
+Lists example projects and applications that utilize the Vosk speech recognition model.
 #### README.md + README-fr.md
 Provide instructions and details for using the model — in Breton `README.md` and in French `README-fr.md`.
 #### LICENSE
-* Describes the license of the project.
+Specifies the terms and conditions under which the project can be used, modified, and shared.
 #### CHANGELOG.md 
 * Describes project's versions since it's creation.

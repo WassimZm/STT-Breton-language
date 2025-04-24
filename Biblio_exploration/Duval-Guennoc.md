@@ -19,3 +19,9 @@ Anaouder is a python package based on **Vosk**, a high-level API for speech-to-t
 ## Anaouder project structure
 ### Supporting Files
 #### setup.py
+* Defines Metadata, configuration and distribution of project
+package.
+* It defines command-line tools that users can type while using the
+model.
+* Setup function, whic is the function that python reads while
+installing the project, it

@@ -51,7 +51,7 @@ This file provides functions for logging messages with colors, converting time, 
   - Sentence tokenization / detokenization (`tokenize` & `detokenize`).
   - Getting Anaouder version (`VERSION`).
 ### linennan.py :
-This script provide a function called `main_linennan()`, it provides :
+This script provides a function called `main_linennan()`, it provides :
 * Argument Parsing
 * Loading the model and text-processing
 * Transcription

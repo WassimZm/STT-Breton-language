@@ -50,11 +50,14 @@ This file provides functions for logging messages with colors, converting time, 
   - Normalization and post-processing of the text (`post_process_text`).
   - Sentence tokenization / detokenization (`tokenize` & `detokenize`).
   - Getting Anaouder version (`VERSION`).
+
 ### linennan.py :
 This script provides a function called `main_linennan()`, it provides :
 * Argument Parsing
 * Loading the model and text-processing
 * Transcription
 * Alignment Process and REliability Check
+### istitlan.py
+
 
 

@@ -2,3 +2,4 @@
 * Gweltaz provided a script for noise adding in order to augment the data / model performance.
 ## Fine-tuning a vosk model
 Anaouder is a vosk model based on **Kaldi** : a framework written in C++ for **building STT models**, it provides tools for **training** and **evaluating** models.
+* It is not possible to train a Vosk model ( Anaouder ) on additional data without using Kaldi

@@ -7,3 +7,9 @@ Anaouder is a vosk model based on **Kaldi** : a framework written in C++ for **b
 * dictionary
 * acoustic model
 * language model
+
+* The Kaldi model used in Vosk is compiled from 3 data sources:
+  - dictionary
+  - acoustic model
+  - language model
+

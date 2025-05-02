@@ -12,7 +12,7 @@ Anaouder is a python package based on **Vosk**, a high-level API for speech-to-t
 ### Vosk
 * It is a library that offers the ability of using pre-trained models for speech recognition.
 * It supports python and some other programming languages.
-* It uses TDNN architecture trained via Kaldi.
+* It uses **TDNN** architecture trained via Kaldi.
 ### Kaldi
 * It is a complex low-level toolkit that offers a collection of tools such as : audio processing and feature extraction.
 * It provides the core algorithm to build speech-to-text systems from scratch.

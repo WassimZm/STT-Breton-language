@@ -1,2 +1,3 @@
 # Kaldi : an Open-Source Toolkit for Speech recognition
 Kaldi is a complex low-level toolkit that offers a collection of tools such as : audio processing and feature extraction. It provides the core algorithm to build speech-to-text systems from scratch.
+* Kaldi supports TDNN architecture

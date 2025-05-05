@@ -7,6 +7,7 @@ Kaldi is a complex **low-level** toolkit that offers a collection of tools such 
   - **Version** : 10 ,
   - **Type** : Vosk ,
   - **URL** : "https://github.com/gweltou/patromou/raw/refs/heads/main/vosk-model-br-25.02.zip".
+
 * Model Training Summary :
   - **Acoustic model** : Time-Delay Neural Network (TDNN)
   - **Number of parameters:** ~5.5 million

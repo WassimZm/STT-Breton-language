@@ -31,3 +31,4 @@ In python it's simpler, I had just to :
 * Evaluating the model based on **WER** and **CER**
 ## Other notes
 **WAV format:** is a standard digital audio file format developed by Microsoft and IBM. It is the best way for Kaldi because it standarize audio formats and it is compatible with Kaldi tools.
+**MFCC :** it is a representation of the features of a given audio, Kaldi processing can not read an audio directly, it has to extract training features.

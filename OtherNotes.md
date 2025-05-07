@@ -29,3 +29,4 @@ In python it's simpler, I had just to :
 * loading the model
 * Inisialization the recognizer with the model
 * Evaluating the model based on **WER** and **CER**
+## Other notes

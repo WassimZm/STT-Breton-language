@@ -13,8 +13,8 @@ Anaouder is a vosk model based on **Kaldi** : a framework written in C++ for **b
 ### Using Kaldi commands
 steps for evaluating latest model of Speech-to-text :
 * Download Kaldi
-* Download the latest Vosk model for STT in Breton
-* Download the dataset ( it includes audio files and their transcription )
+* Download the latest Vosk model for STT in Breton (https://github.com/gweltou/patromou/tree/main)
+* Download the dataset ( it includes audio files and their transcription ) (https://huggingface.co/datasets/Bretagne/Banque_Sonore_Dialectes_Bretons)
 * Generating utt2spk and spk2utt files
 * Converting audio files to wav format
 * Converting audio files from 4400kHZ to 1600kHZ

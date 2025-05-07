@@ -30,3 +30,4 @@ In python it's simpler, I had just to :
 * Inisialization the recognizer with the model
 * Evaluating the model based on **WER** and **CER**
 ## Other notes
+**WAV format:** is a standard digital audio file format developed by Microsoft and IBM. It is the best way for Kaldi because it standarize audio formats and it is compatible with Kaldi tools.

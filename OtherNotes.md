@@ -19,7 +19,7 @@ steps for evaluating latest model of Speech-to-text :
 * Converting audio files to wav format
 * Converting audio files from 4400kHZ to 1600kHZ
 * Preparing necessary scripts for the evaluation
-* XXX In Kaldi, features extraction is obliged ( computing MFCC ) XXX
+* **XXX In Kaldi, features extraction is obliged ( computing MFCC ) XXX**
 * Decoding the model
 * Evaluating the model
 ### Using Python

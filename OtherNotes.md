@@ -33,3 +33,4 @@ In python it's simpler, I had just to :
 **WAV format:** is a standard digital audio file format developed by Microsoft and IBM. It is the best way for Kaldi because it standarize audio formats and it is compatible with Kaldi tools.
 
 **MFCC :** it is a representation of the features of a given audio, Kaldi processing can not read an audio directly, it has to extract training features.
+The computation of MFCC features is done by an object of type Mfcc, which has a function Compute() to compute the features from the waveform. [source](https://kaldi-asr.org/doc/feat.html)

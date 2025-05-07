@@ -10,4 +10,22 @@ Anaouder is a vosk model based on **Kaldi** : a framework written in C++ for **b
   - acoustic model
   - language model
 ## Evaluating a vosk model
-
+### Using Kaldi commands
+steps for evaluating latest model of Speech-to-text :
+* Download Kaldi
+* Download the latest Vosk model for STT in Breton
+* Download the dataset ( it includes audio files and their transcription )
+* Generating utt2spk and spk2utt files
+* Converting audio files to wav format
+* Converting audio files from 4400kHZ to 1600kHZ
+* Preparing necessary scripts for the evaluation
+* XXX In Kaldi, features extraction is obliged ( computing MFCC ) XXX
+* Decoding the model
+* Evaluating the model
+### Using Python
+In python it's simpler, I had just to :
+* Load the dataset
+* Building a copy of dataset with an audio files of 16kHZ
+* loading the model
+* Inisialization the recognizer with the model
+* Evaluating the model based on **WER** and **CER**

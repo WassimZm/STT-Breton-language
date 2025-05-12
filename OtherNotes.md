@@ -39,7 +39,7 @@ The computation of MFCC features is done by an object of type Mfcc, which has a 
 It seems that CER (Character Error Rate) provides a more accurate reflection of the model’s performance, for example:
 - **Correct transcription:** Hervez kont...
 - **Model Transcription:** hervez kont
-- 
+
 - **WER :** 1.0 ( 100% des mots sont fausses )
 - **CER :** 0.2857142857142857 ( 28% des lettres sont fausses )
 

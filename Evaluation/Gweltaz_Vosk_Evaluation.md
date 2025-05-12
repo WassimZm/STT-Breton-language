@@ -4,7 +4,7 @@
 * Installing the Vosk library using `pip`.
 * Downloading and Loading the dataset (https://huggingface.co/datasets/Bretagne/Banque_Sonore_Dialectes_Bretons)
 * Building a copy of dataset with an audio files of 16kHZ.
-* loading the model.
+* loading the vosk model.
 * Inisialization the recognizer with the model.
 * Evaluating the model based on WER and CER.
 

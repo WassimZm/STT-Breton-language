@@ -2,6 +2,8 @@
 ## Evaluation on "Banque Sonore des Dialectes Bretons"
 ### Process of evaluation using python
 * Installing the Vosk library using `pip`.
+     ```bash
+   pip install vosk
 * Downloading and Loading the dataset (https://huggingface.co/datasets/Bretagne/Banque_Sonore_Dialectes_Bretons)
 * Building a copy of dataset with an audio files of 16kHZ.
 * loading the vosk model.

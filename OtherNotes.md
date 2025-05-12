@@ -36,7 +36,7 @@ In python it's simpler, I had just to :
 The computation of MFCC features is done by an object of type Mfcc, which has a function Compute() to compute the features from the waveform. [source](https://kaldi-asr.org/doc/feat.html)
 
 ## Concernant l'évaluation
-It seems that CER (Character Error Rate) provides a more accurate reflection of the model’s performance, for example :
+It seems that CER (Character Error Rate) provides a more accurate reflection of the model’s performance, for example:
 - **Correct transcription:** Hervez kont...
 - **Model Transcription:** hervez kont
 - **WER :** 1.0 ( 100% des mots sont fausses )

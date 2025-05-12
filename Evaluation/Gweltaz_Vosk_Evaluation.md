@@ -11,5 +11,5 @@
 * Evaluating the model based on WER and CER.
 
 ### Results
-* **WER** = 86%
-* **CER** = 50%
+* **WER** = 86% ( took 1h for evaluation )
+* **CER** = 50% ( took 1h and half for evaluation )

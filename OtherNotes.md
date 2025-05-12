@@ -6,10 +6,6 @@ It seems that CER (Character Error Rate) provides a more accurate reflection of 
 - **WER :** 1.0 ( 100% of the words are considered incorrect )
 - **CER :** 0.2857142857142857 ( Only 28% of the characters are incorrect )
 
-
-* Gweltaz provided a script for noise adding in order to augment the data / model performance.
-* **Tdnn:** a type of neural network designed specifically for processing temporal data like audio or speech.
-* Kaldi latest version is 5.5.636 7a50987e7 **2020-02-08** [source](https://kaldi-asr.org/doc/versions.html)
 ## Fine-tuning a vosk model
 Anaouder is a vosk model based on **Kaldi** : a framework written in C++ for **building STT models**, it provides tools for **training** and **evaluating** models.
 * To train or fine-tune a Vosk model ( like Anaouder ) on additional data, the use of Kaldi is essential, as Vosk relies on models built using Kaldi’s toolkit.
@@ -42,5 +38,10 @@ In python it's simpler, I had just to :
 
 **MFCC :** it is a representation of the features of a given audio, Kaldi processing can not read an audio directly, it has to extract training features.
 The computation of MFCC features is done by an object of type Mfcc, which has a function Compute() to compute the features from the waveform. [source](https://kaldi-asr.org/doc/feat.html)
+
+
+* Gweltaz provided a script for noise adding in order to augment the data / model performance.
+* **Tdnn:** a type of neural network designed specifically for processing temporal data like audio or speech.
+* Kaldi latest version is 5.5.636 7a50987e7 **2020-02-08** [source](https://kaldi-asr.org/doc/versions.html)
 
 

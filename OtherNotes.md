@@ -40,7 +40,6 @@ It seems that CER (Character Error Rate) provides a more accurate reflection of 
 - **Correct transcription:** Hervez kont...
 - **Model Transcription:** hervez kont
 
-
 - **WER :** 1.0 ( 100% des mots sont fausses )
 - **CER :** 0.2857142857142857 ( 28% des lettres sont fausses )
 

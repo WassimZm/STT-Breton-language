@@ -5,3 +5,7 @@
 * Le fine-tuning du modèle de Gweltaz nécessite l'utilisation de Kaldi.
 * Ne pas utiliser Kaldi pour le fine-tuning, car il est complexe et nécessite beaucoup de temps et ressources.
 * Utiliser Kaldi seulement pour l'évaluation, puis passer vers le fine tuning du modéle whisper.
+
+## Tuesday, May 13, 2025: Wassim & Alice & Loic
+* Discuter les points abordés lors de la réunion précédente ( évaluation du modéle Vosk & Web scrapping ).
+* Dans le cadre de la dataset "Banque sonore Breronne", Il est possible de séparer le fichier .tsv en deux fichiers ( Breton standard & dialectale ).

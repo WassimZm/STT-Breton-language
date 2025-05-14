@@ -11,3 +11,4 @@
 * Dans le cadre de la dataset "Banque sonore Breronne", Il est possible de séparer le fichier .tsv en deux fichiers ( Breton standard & dialectale ).
 * Gweltaz a entrainé son modèle sur le breton standards ( la transcription avec Yuna se fait d'une façon standard ).
 * Avant l’évaluation ou l’entraînement de Anaouder, il faut passer par la phase de **la normalisation & tokenisation** des données.
+* Gweltaz a fourni un script pour normalisation et tokenisation à https://github.com/gweltou/ostilhou/blob/main/scripts/MCV_score_utts.py

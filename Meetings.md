@@ -9,3 +9,4 @@
 ## Tuesday, May 13, 2025: Wassim & Alice & Loic
 * Discuter les points abordés lors de la réunion précédente ( évaluation du modéle Vosk & Web scrapping ).
 * Dans le cadre de la dataset "Banque sonore Breronne", Il est possible de séparer le fichier .tsv en deux fichiers ( Breton standard & dialectale ).
+* Gweltaz a entrainé son modèle sur le breton standards ( la transcription avec Yuna se fait d'une façon standard ).

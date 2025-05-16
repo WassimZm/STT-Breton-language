@@ -20,3 +20,5 @@ It seems that CER (Character Error Rate) provides a more accurate reflection of 
 
  - **WER :** 1.0 ( 100% of the words are considered incorrect )
  - **CER :** 0.2857142857142857 ( Only 28% of the characters are incorrect )
+
+The high error rate is primarily due to skipping the normalization and tokenization phase before model evaluation.

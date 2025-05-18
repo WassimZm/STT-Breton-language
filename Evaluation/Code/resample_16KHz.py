@@ -24,6 +24,6 @@ def resample_all_wav_in_folder(source_folder, output_folder, target_sample_rate=
             audio = audio.set_frame_rate(target_sample_rate)
             audio.export(output_path, format="wav")
 
-    print("✅ All files resampled successfully!")
+    print("All files resampled successfully!")
 
  

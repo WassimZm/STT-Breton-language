@@ -1,24 +1,29 @@
 import os
 from pydub import AudioSegment
 
-def resample_audio(input_path, output_path, target_sample_rate=16000):
-    """Resample a single WAV audio file."""
-    audio = AudioSegment.from_wav(input_path)
-    audio = audio.set_frame_rate(target_sample_rate)
-    audio.export(output_path, format="wav")
+def resample_all_wav_in_folder(source_folder, output_folder, target_sample_rate=16000):
+    """
+    Resample all WAV files in the source folder to the target sample rate
+    and save them in the output folder.
 
-# Folder-level logic (outside the function)
-def resample_folder(dataset_path, output_folder, target_sample_rate=16000):
-    """Apply resampling to all WAV files in a folder."""
+    Args:
+        source_folder (str): Path to the folder containing original WAV files.
+        output_folder (str): Path to save the resampled WAV files.
+        target_sample_rate (int): Desired sample rate (default: 16000 Hz).
+    """
     os.makedirs(output_folder, exist_ok=True)
 
-    for file_name in os.listdir(dataset_path):
-        if file_name.endswith('.wav'):
-            input_file_path = os.path.join(dataset_path, file_name)
-            output_file_path = os.path.join(output_folder, file_name)
+    for filename in os.listdir(source_folder):
+        if filename.endswith(".wav"):
+            input_path = os.path.join(source_folder, filename)
+            output_path = os.path.join(output_folder, filename)
 
-            print(f"Resampling {input_file_path}...")
-            resample_audio(input_file_path, output_file_path, target_sample_rate)
+            print(f"Resampling {filename} to {target_sample_rate} Hz...")
 
-    print("Resampling complete!")
+            audio = AudioSegment.from_wav(input_path)
+            audio = audio.set_frame_rate(target_sample_rate)
+            audio.export(output_path, format="wav")
+
+    print("✅ All files resampled successfully!")
+
  

@@ -1,5 +1,5 @@
 # Reads the TSV file ( from CommonVoice dataset ) and replaces all occurrences of '.mp3' with '.wav' in the second
-# column (audio filename).
+# column (audio filename) ( vosk can only interact with audio in wav format )
 
 import csv
 

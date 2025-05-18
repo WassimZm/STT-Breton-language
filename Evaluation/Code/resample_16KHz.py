@@ -1,7 +1,9 @@
 import os
 from pydub import AudioSegment
 
-def resample_all_wav_in_folder(source_folder, output_folder, target_sample_rate=16000):
+# A function to resample wav audio to 16Khz
+
+def resample_all_wav(source_folder, output_folder, target_sample_rate=16000):
     """
     Resample all WAV files in the source folder to the target sample rate
     and save them in the output folder.

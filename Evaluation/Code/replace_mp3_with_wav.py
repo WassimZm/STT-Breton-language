@@ -1,4 +1,4 @@
-# Reads the TSV file ( from CommonVoice dataset ) and replaces all occurrences of '.mp3' with '.wav' in the first
+# Reads the TSV file ( from CommonVoice dataset ) and replaces all occurrences of '.mp3' with '.wav' in the second
 # column (audio filename).
 
 import csv

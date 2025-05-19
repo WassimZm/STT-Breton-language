@@ -6,6 +6,8 @@ It seems that CER (Character Error Rate) provides a more accurate reflection of 
 - **WER :** 1.0 ( 100% of the words are considered incorrect )
 - **CER :** 0.2857142857142857 ( Only 28% of the characters are incorrect )
 
+=> For better result, there should be a phase for data normalization and tokenization.
+
 ## Fine-tuning a vosk model
 Anaouder is a vosk model based on **Kaldi** : a framework written in C++ for **building STT models**, it provides tools for **training** and **evaluating** models.
 * To train or fine-tune a Vosk model ( like Anaouder ) on additional data, the use of Kaldi is essential, as Vosk relies on models built using Kaldi’s toolkit.

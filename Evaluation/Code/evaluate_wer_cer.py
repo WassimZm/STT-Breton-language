@@ -36,3 +36,39 @@ def evaluate_wer(dataset_path, ground_truth_dict, model):
         print(f"Average WER for the dataset: {avg_wer}")
     else:
         print("No WER scores to evaluate.")
+
+
+def evaluate_cer(dataset_path, ground_truth_dict, model):
+    wav_files = [f for f in os.listdir(dataset_path) if f.endswith('.wav')]
+    cer_scores = []
+
+    for wav_file in wav_files:
+        print(f"Processing {wav_file}...")
+
+        # Transcribe the audio file
+        transcription = transcribe_audio(os.path.join(dataset_path, wav_file), model)
+        if transcription:
+            # Load ground truth from the dictionary
+            ground_truth = ground_truth_dict.get(wav_file)
+            if ground_truth:
+                # Compute CER using jiwer 
+                PUNCTUATION = '.?!,‚;:«»“”"()[]/…–—•'
+                transcription = filter_out_chars(transcription, PUNCTUATION + '*')
+                # transcription = normalize_sentence(transcription, autocorrect=True)
+                # transcription = pre_process(transcription).replace('-', ' ').lower()
+
+                
+                cer = jiwer.cer(ground_truth, transcription)
+                cer_scores.append(cer)
+                print(f"CER for {wav_file}: {cer}")
+            else:
+                print(f"Ground truth not found for {wav_file}.")
+        else:
+            print(f"Skipping {wav_file} due to transcription failure.")
+
+    # Compute the average CER for the dataset
+    if cer_scores:
+        avg_cer = sum(cer_scores) / len(cer_scores)
+        print(f"Average CER for the dataset: {avg_cer}")
+    else:
+        print("No CER scores to evaluate.")

@@ -14,3 +14,12 @@
 * Gweltaz a fourni un script pour la normalisation et tokenisation à https://github.com/gweltou/ostilhou/blob/main/scripts/MCV_score_utts.py .
 * Utiliser app.diagrams.net pour créer des schémas.
 * Débuter l’évaluation du modèle Whisper.
+
+## Monday, May 27, 2025: Wassim & Alice & Loic : Visio
+- Discuter le problème de l'évaluation ( pour le WER ) sur la Banque Sonore des dialectes bretonnes.
+- Proposer l'évaluation du modèle de Gweltaz sur : la partie test de Common Voice / aprés la modification des régles + ponctuations faites par Gweltaz ( le - ).
+- Utiliser la librairie que loic a envoyé : https://gitlab.com/prebens-phd-adventures/universal-edit-distance et proposer ma propre segmentation pour l'évaluation.
+- le modèle Vosk performe mieux pour le Breton standard ( entire dataset : WER 73%, only standard : 69% ).
+- Récupèrer et Evaluer un modèle whisper.
+- Proposition de Fine tunning un Modèle Whisper Multilingue.
+- Mardi 3 Juin : Loic à Paris 8.

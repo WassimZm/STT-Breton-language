@@ -1,10 +1,11 @@
-## Friday, May 9, 2025: Wassim & Loic : Visio
-* Discuter les résultat de l'évaluation du modéle "vosk-model-br-25.02" sur la dataset "Banque Sonore Dialectes Bretonnes".
-* Discuter les problématiques de la dataset ( Les instances "graphie locale", balises HTML : br ... etc ).
-* Proposer une phase de web scraping pour reconstruire proprement le jeu de données .
-* Le fine-tuning du modèle de Gweltaz nécessite l'utilisation de Kaldi.
-* Ne pas utiliser Kaldi pour le fine-tuning, car il est complexe et nécessite beaucoup de temps et ressources.
-* Utiliser Kaldi seulement pour l'évaluation, puis passer vers le fine tuning du modéle whisper.
+## Monday, May 27, 2025: Wassim & Alice & Loic : Visio
+- Discuter le problème de l'évaluation ( pour le WER ) sur la Banque Sonore des dialectes bretonnes.
+- Proposer l'évaluation du modèle de Gweltaz sur : la partie test de Common Voice / aprés la modification des régles + ponctuations faites par Gweltaz ( le - ).
+- Utiliser la librairie que loic a envoyé : https://gitlab.com/prebens-phd-adventures/universal-edit-distance et proposer ma propre segmentation pour l'évaluation.
+- le modèle Vosk performe mieux pour le Breton standard ( entire dataset : WER 73%, only standard : 69% ).
+- Récupèrer et Evaluer un modèle whisper.
+- Proposition de Fine tunning un Modèle Whisper Multilingue.
+- Mardi 3 Juin : Loic à Paris 8.
 
 ## Tuesday, May 13, 2025: Wassim & Alice & Loic
 * Discuter les points abordés lors de la réunion précédente ( évaluation du modéle Vosk & Web scrapping ).
@@ -15,11 +16,10 @@
 * Utiliser app.diagrams.net pour créer des schémas.
 * Débuter l’évaluation du modèle Whisper.
 
-## Monday, May 27, 2025: Wassim & Alice & Loic : Visio
-- Discuter le problème de l'évaluation ( pour le WER ) sur la Banque Sonore des dialectes bretonnes.
-- Proposer l'évaluation du modèle de Gweltaz sur : la partie test de Common Voice / aprés la modification des régles + ponctuations faites par Gweltaz ( le - ).
-- Utiliser la librairie que loic a envoyé : https://gitlab.com/prebens-phd-adventures/universal-edit-distance et proposer ma propre segmentation pour l'évaluation.
-- le modèle Vosk performe mieux pour le Breton standard ( entire dataset : WER 73%, only standard : 69% ).
-- Récupèrer et Evaluer un modèle whisper.
-- Proposition de Fine tunning un Modèle Whisper Multilingue.
-- Mardi 3 Juin : Loic à Paris 8.
+## Friday, May 9, 2025: Wassim & Loic : Visio
+* Discuter les résultat de l'évaluation du modéle "vosk-model-br-25.02" sur la dataset "Banque Sonore Dialectes Bretonnes".
+* Discuter les problématiques de la dataset ( Les instances "graphie locale", balises HTML : br ... etc ).
+* Proposer une phase de web scraping pour reconstruire proprement le jeu de données .
+* Le fine-tuning du modèle de Gweltaz nécessite l'utilisation de Kaldi.
+* Ne pas utiliser Kaldi pour le fine-tuning, car il est complexe et nécessite beaucoup de temps et ressources.
+* Utiliser Kaldi seulement pour l'évaluation, puis passer vers le fine tuning du modéle whisper.

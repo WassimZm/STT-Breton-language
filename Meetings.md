@@ -1,5 +1,5 @@
 ## Tuesday, June 3, 2025: Wassim & Alice & Loic ( Visio ) :
-- Separer la dataset "Banque sonore des DIalectes Bretonnes" ( en 3 datasets : par département )
+- Separer la dataset "Banque sonore des DIalectes Bretonnes" ( en 3 catégories : par département )
 - Le script que Loic a envoyé peut etre efficace pour l'évaluation ( chaque instance = element )
 - Faire une evaluation pour chaque categorie ( departement ) et comparer.
 - Utiliser df pour avoir la colonne City.

@@ -1,9 +1,9 @@
 ## Tuesday, June 3, 2025: Wassim & Alice & Loic ( Visio ) :
 - Separer la dataset "Banque sonore des DIalectes Bretonnes" ( en 3 datasets : par département )
 - Le script que Loic a envoyé peut etre efficace pour l'évaluation ( chaque instance = element )
-- Faire une evaluation pour chaque categorie ( departement ) et comparer
-- Utiliser df pour avoir la colonne City
-- Evaluer Whisper avant Fine-Tunning
+- Faire une evaluation pour chaque categorie ( departement ) et comparer.
+- Utiliser df pour avoir la colonne City.
+- Evaluer Whisper avant Fine-Tunning.
 - Faire une analyse sur les instances de la dataset "Banque sonore" pour adapter le data-cleaning de Gweltaz.
 - Organiser l'espace de travail.
 

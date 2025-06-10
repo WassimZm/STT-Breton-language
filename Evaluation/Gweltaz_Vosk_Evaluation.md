@@ -10,7 +10,7 @@
 * Dataset instances simplification ( Normalization and Preprocessing the text before evaluation ).
 * Evaluating the model based on WER and CER.
 
-<img src="images/Evaluation.png" alt="Beautiful Annaba" width="400"/>
+<img src="images/Evaluation.png" alt="hohoho" width="400"/>
 
 ### Results
 

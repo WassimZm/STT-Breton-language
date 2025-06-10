@@ -10,5 +10,7 @@
 * Dataset instances simplification ( Normalization and Preprocessing the text before evaluation ).
 * Evaluating the model based on WER and CER.
 
+![My Image](images/Evaluation.png)
+
 ### Results
 

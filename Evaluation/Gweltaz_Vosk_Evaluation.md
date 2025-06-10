@@ -10,5 +10,6 @@
 * Dataset instances simplification ( Normalization and Preprocessing the text before evaluation ).
 * Evaluating the model based on WER and CER.
 <img src="https://github.com/WassimZm/STT-Breton-language/blob/main/images/Evaluation.png" alt="hohoho" width="800"/>
+
 ### Results
 

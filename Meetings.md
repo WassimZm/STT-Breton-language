@@ -1,4 +1,4 @@
-## Wednesday, June 11, 2025: Wassim & ALice & Loic :
+## Wednesday, June 11, 2025: Wassim & Alice & Loic :
 - Using Data Wrangler to visualize better the instances.
 - Instance number 6173 is interesting.
 - Create a new data frame that contains WER, CER, Transcription and Ground truth before and after cleaning. The data frame summarizes all th work.

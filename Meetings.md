@@ -1,3 +1,11 @@
+## Wednesday, June 11, 2025: Wassim & ALice & Loic :
+- Using Data Wrangler to visualize better the instances.
+- Instance number 6173 is interesting.
+- Create a new data frame that contains WER, CER, Transcription and Ground truth before and after cleaning. The data frame summarizes all th work.
+- Counting the average wer & cer for every city & department.
+- Graphie locale & Peurunvan : correction in the df.
+- Proposition to use a Python script code for evaluation instead of Notebook ( execution in Terminal ).
+
 ## Tuesday, June 3, 2025: Wassim & Alice & Loic ( Visio ) :
 - Separer la dataset "Banque sonore des DIalectes Bretonnes" ( en 3 catégories : par département )
 - Le script que Loic a envoyé peut etre efficace pour l'évaluation ( chaque instance = element )

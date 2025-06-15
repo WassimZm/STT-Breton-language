@@ -6,6 +6,7 @@
 - Graphie locale & Peurunvan : correction in the df.
 - Proposition to use a Python script code for evaluation instead of Notebook ( execution in Terminal ).
 - Whisper has a weak performance, even after the specefication of the language ( Breton "br" ), tho the performance is varying depending on the model ( Meduim, Large, Turbo ... etc ).
+- The need of GPU for evaluating and Fine-Tunning Whisper models.
 
 ## Tuesday, June 3, 2025: Wassim & Alice & Loic ( Visio ) :
 - Separer la dataset "Banque sonore des DIalectes Bretonnes" ( en 3 catégories : par département )

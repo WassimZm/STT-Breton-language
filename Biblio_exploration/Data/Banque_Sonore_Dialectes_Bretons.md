@@ -5,6 +5,7 @@ The purpose of these online archives, compiled by a team of volonteer collectors
 ## Dataset exploration :
 * The dataset is available in Hugging Face and contains approximately 7,290 audio samples.
 * Each raw includes a Breton audio recording, its corresponding transcription, a French translation, and the postal code of the city where the it was collected.
+* The dataset provides about 18 hours of speech audio.
 ## ✅ Important Notes / Observations
 * The dataset contains some issues resulting from poor web scraping practices.
 * Some instances include the term "graphie locale" at the beginning of the transcription, which may affect the model performance during evaluation.

@@ -1,3 +1,10 @@
+## Tuesday, June 17, 2025: Wassim & Alice & Loic & Mélanie & Yuna :
+- Discuter les problèmes qui conçernent les données de Dastum.
+- Faire entrainer Whisper au lieu de Vosk.
+- La présence du français dans quelques audio à transcrire.
+
+
+
 ## Wednesday, June 11, 2025: Wassim & Alice & Loic :
 - Using Data Wrangler to visualize better the instances.
 - Instance number 6173 is interesting.
@@ -16,10 +23,6 @@
 - Evaluer Whisper avant Fine-Tunning.
 - Faire une analyse sur les instances de la dataset "Banque sonore" pour adapter le data-cleaning de Gweltaz.
 - Organiser l'espace de travail.
-
-
-
-
 
 ## Monday, May 27, 2025: Wassim & Alice & Loic : Visio
 - Discuter le problème de l'évaluation ( pour le WER ) sur la Banque Sonore des dialectes bretonnes.

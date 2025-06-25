@@ -1,6 +1,5 @@
 # Evaluation du modéle "vosk-model-br-25.02" 
-## Evaluation on "Banque Sonore des Dialectes Bretons"
-### Process of evaluation using python
+## Process of evaluation using python
 * Installing the Vosk library using `pip`.
      ```bash
    pip install vosk
@@ -12,5 +11,11 @@
 
 <img src="https://github.com/WassimZm/STT-Breton-language/blob/main/images/Data_Cleaning_and_Evaluation.png" alt="Evaluation results" width="800"/>
 
-### Results
+## Results
+In order to explore the performance of Vosk Model for speech recogniztion, I made 6 evaluation experiences :
+### Evaluation With data cleaning :
+This represents three evaluation experiences in order to visualize the importance of data cleaning ( the code is taken from Gweltaz code ) :
+* **Evaluation on Common Voice dataset**
+* **Evaluation on Banque Sonore including dialectal instances**
+* **Evaluation on Banque SOnore without taking in concideration dialectal instances ( only standard instances )**
 <img src="https://github.com/WassimZm/STT-Breton-language/blob/main/images/Evaluation.jpg" alt="Evaluation results" width="800"/>

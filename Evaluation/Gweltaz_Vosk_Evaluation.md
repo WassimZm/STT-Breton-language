@@ -12,10 +12,21 @@
 <img src="https://github.com/WassimZm/STT-Breton-language/blob/main/images/Data_Cleaning_and_Evaluation.png" alt="Evaluation results" width="800"/>
 
 ## Results
-In order to explore the performance of Vosk Model for speech recogniztion, I made 6 evaluation experiences :
-### Evaluation With data cleaning :
-This represents three evaluation experiences in order to visualize the importance of data cleaning ( the code is taken from Gweltaz code ) :
-* **Evaluation on Common Voice dataset**
-* **Evaluation on Banque Sonore including dialectal instances**
-* **Evaluation on Banque SOnore without taking in concideration dialectal instances ( only standard instances )**
+
+To evaluate the performance of the Vosk model for speech recognition, I conducted six evaluation experiments:
+
+### 1. **Without Data Cleaning**
+These first three experiments were performed without any data cleaning:
+- **Evaluation on the Common Voice dataset**
+- **Evaluation on the Banque Sonore dataset, including dialectal instances**
+- **Evaluation on the Banque Sonore dataset, excluding dialectal instances (standard Breton only)**
+
+### 2. **With Data Cleaning**
+To assess the impact of data cleaning, the same three experiments were repeated using a cleaned version of the data (cleaning script adapted from Gweltaz’s code):
+- **Evaluation on the Common Voice dataset**
+- **Evaluation on the Banque Sonore dataset, including dialectal instances**
+- **Evaluation on the Banque Sonore dataset, excluding dialectal instances (standard Breton only)**
+
+### Summary of Results
+The results of all six evaluations are summarized in the table below :
 <img src="https://github.com/WassimZm/STT-Breton-language/blob/main/images/Evaluation.jpg" alt="Evaluation results" width="800"/>

@@ -22,7 +22,7 @@ These first three experiments were performed without any data cleaning:
 - Evaluation on the Banque Sonore dataset, excluding dialectal instances (standard Breton only)
 
 ### 2. **With Data Cleaning**
-To assess the impact of data cleaning, the same three experiments were repeated using a cleaned version of the data (cleaning script adapted from Gweltaz’s code):
+To visualize the impact of data cleaning, the same three experiments were repeated using a cleaned version of the data (cleaning script adapted from Gweltaz’s code):
 - Evaluation on the Common Voice dataset
 - Evaluation on the Banque Sonore dataset, including dialectal instances
 - Evaluation on the Banque Sonore dataset, excluding dialectal instances (standard Breton only)

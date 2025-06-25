@@ -19,7 +19,7 @@ To evaluate the performance of the Vosk model for speech recognition, I conducte
 These first three experiments were performed without any data cleaning:
 - Evaluation on the Common Voice dataset
 - Evaluation on the Banque Sonore dataset, including dialectal instances
-- *valuation on the Banque Sonore dataset, excluding dialectal instances (standard Breton only)
+- Evaluation on the Banque Sonore dataset, excluding dialectal instances (standard Breton only)
 
 ### 2. **With Data Cleaning**
 To assess the impact of data cleaning, the same three experiments were repeated using a cleaned version of the data (cleaning script adapted from Gweltaz’s code):

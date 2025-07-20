@@ -2,10 +2,16 @@
 - Commencer par la rédaction du mémoire, puis l'article scientifique.
 - Faire un plan de la mémoire et l’envoyer à Alice (au plus tard jeudi prochain).
 - Inclure un état de l’art dans le mémoire, et préciser les traveaux de Gweltaz.
+- Expliquer toutes les expériences réalisées dans le cadre du stage dans la mémoire.
+- Indiquer que le stage s'inscrit dans le cadre du projet YAR.
 - Fine-tuning du modèle Whisper **Tiny** sur les données de Yuna.
+- Préciser les jeux de données utilisés pour l'entraînement des modèles pré-entraînés (Whisper, Wav2Vec, Vosk ...) et expliquer leur architectures.
+- Essayer de comprendre le fonctionnement de Wav2vec.
 - Organiser les différents groupes de données de Yuna et utiliser 20 % pour l'entraînement, 80 % pour l’évaluation en chaque groupe.
 - Les données de Yuna représentent plus de 6 heures d’audio.
-- Évaluer le modèle Wav2Vec sur les memes données.
+- Évaluer le modèle Wav2Vec sur les mêmes données.
+- Comparer les performances des modèles Whisper ( tiny, small, base ).
+- 
 
 ## Tuesday, June 17, 2025: Wassim & Alice & Loic & Mélanie & Yuna :
 - Discuter les problèmes qui conçernent les données de Dastum.

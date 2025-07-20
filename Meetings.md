@@ -11,7 +11,6 @@
 - Les données de Yuna représentent plus de 6 heures d’audio.
 - Évaluer le modèle Wav2Vec sur les mêmes données.
 - Comparer les performances des modèles Whisper ( tiny, small, base ).
-- 
 
 ## Tuesday, June 17, 2025: Wassim & Alice & Loic & Mélanie & Yuna :
 - Discuter les problèmes qui conçernent les données de Dastum.

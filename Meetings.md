@@ -1,3 +1,12 @@
+## Thursday, July 16, 2025: Wassim & Alice :
+- Commencer par la rédaction du mémoire, puis l'article scientifique.
+- Faire un plan de la mémoire et l’envoyer à Alice (au plus tard jeudi prochain).
+- Inclure un état de l’art dans le mémoire, et préciser les traveaux de Gweltaz.
+- Fine-tuning du modèle Whisper **Tiny** sur les données de Yuna.
+- Organiser les différents groupes de données de Yuna et utiliser 20 % pour l'entraînement, 80 % pour l’évaluation en chaque groupe.
+- Les données de Yuna représentent plus de 6 heures d’audio.
+- Évaluer le modèle Wav2Vec sur les memes données.
+
 ## Tuesday, June 17, 2025: Wassim & Alice & Loic & Mélanie & Yuna :
 - Discuter les problèmes qui conçernent les données de Dastum.
 - Faire entrainer Whisper au lieu de Vosk.

@@ -1,3 +1,11 @@
+## Thursday, July 24, 2025: Wassim & Alice :
+- Faire le Plan de mémoire : commencer la rédaction.
+- l'évaluation dépend de plusieurs facteurs ( exigence en fonction de l'usage + variations : cas d'utilisation ).
+- Intégrer les données de Gweltaz meme si on les utilise pas.
+- Expliquer la préparation des données pour le Fine Tunning dans la partie des données.
+- Aborder le problème de code swittching dans la mémoire.
+- Indiquer les avantages et les inconvéniants pour chaque dataset.
+
 ## Thursday, July 16, 2025: Wassim & Alice :
 - Commencer par la rédaction du mémoire, puis l'article scientifique.
 - Faire un plan de la mémoire et l’envoyer à Alice (au plus tard jeudi prochain).

@@ -3,6 +3,7 @@
 - l'évaluation dépend de plusieurs facteurs ( exigence en fonction de l'usage + variations : cas d'utilisation ).
 - Intégrer les données de Gweltaz meme si on les utilise pas.
 - Expliquer la préparation des données pour le Fine Tunning dans la partie des données.
+- Essayer d'utiliser le GPU de Kaggle + Utiliser Google Collab.
 - Aborder le problème de code swittching dans la mémoire.
 - Indiquer les avantages et les inconvéniants pour chaque dataset.
 

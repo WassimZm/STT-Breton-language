@@ -1,3 +1,10 @@
+## Wednesday, August 6, 2025 : Wassim & Loic ( Visio ) :
+- Verifier le code de l'evaluation ( Whisper ).
+- Il y a un problème de chargement de transcriptions dans la df dans quelques évaluations Whisper.
+- Faire des évaluations sur les données de Yuna.
+- Démarrer le Fine Tunning.
+- Faire le Fine Tunning de Whisper avant Wav2Vec.
+
 ## Thursday, July 24, 2025: Wassim & Alice :
 - Faire le Plan de mémoire : commencer la rédaction.
 - l'évaluation dépend de plusieurs facteurs ( exigence en fonction de l'usage + variations : cas d'utilisation ).

@@ -12,7 +12,7 @@
 - def __init__(self, hf_dataset, feature_extractor, tokenizer):
    def __iter__(self):
    
-**def load_and_preprocess_data(path,language=None, use_huggingface=False,token=None ,feature_extractor=None, tokenizer=None):**
+**def load_and_preprocess_data**(path,language=None, use_huggingface=False,token=None ,feature_extractor=None, tokenizer=None):
  - Prepares data from a given source (Hugging Face / a local folder) : generating audio features + and converting transcriptions into tokenized form.
 
  - def audio_text_generator(data_dir):

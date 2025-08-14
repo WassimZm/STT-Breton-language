@@ -2,19 +2,18 @@
 
 ## DATA PREPARATION :
 
-def clean_text(text: str) -> str:
+**def clean_text(text: str) -> str:**
 => Cleaning transcription text
 => It can be replaced by cleaning code that Gweltaz provided
 
 
-class WhisperStreamingDataset(IterableDataset):
+**class WhisperStreamingDataset(IterableDataset):**
 => Handles large datasets, make it easy to preprocess big data
 => def __init__(self, hf_dataset, feature_extractor, tokenizer):
    def __iter__(self):
    
-def load_and_preprocess_data(path,language=None, use_huggingface=False,token=None ,feature_extractor=None, tokenizer=None):
- => Prepares data from a given source (Hugging Face / a local folder) : generating audio features + and converting transcriptions
- into tokenized form.
+**def load_and_preprocess_data(path,language=None, use_huggingface=False,token=None ,feature_extractor=None, tokenizer=None):**
+ => Prepares data from a given source (Hugging Face / a local folder) : generating audio features + and converting transcriptions into tokenized form.
 
  => def audio_text_generator(data_dir):
     => Takes as an input a folder ( data_dir ), the folder should contain wav files for each instance + text files that contain

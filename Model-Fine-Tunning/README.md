@@ -3,13 +3,13 @@
 ## DATA PREPARATION :
 
 **def clean_text(text: str) -> str:**
-=> Cleaning transcription text
-=> It can be replaced by cleaning code that Gweltaz provided
+- Cleaning transcription text
+- It can be replaced by cleaning code that Gweltaz provided
 
 
 **class WhisperStreamingDataset(IterableDataset):**
-=> Handles large datasets, make it easy to preprocess big data
-=> def __init__(self, hf_dataset, feature_extractor, tokenizer):
+- Handles large datasets, make it easy to preprocess big data
+- def __init__(self, hf_dataset, feature_extractor, tokenizer):
    def __iter__(self):
    
 **def load_and_preprocess_data(path,language=None, use_huggingface=False,token=None ,feature_extractor=None, tokenizer=None):**
@@ -32,19 +32,19 @@
  => Loading and splitting the dataset and apply all the preprocessing steps
  
 ## MODEL PREPARATION:
-=> Loading Whisper model
-=> Define the model's task ( transcription ) and language.
-=> Feature extraction : Extractor
-=> Tokenization : Tokenizer
+- Loading Whisper model
+- Define the model's task ( transcription ) and language.
+- Feature extraction : Extractor
+- Tokenization : Tokenizer
 
 ## COLLATOR FOR BATCHING:
-=> Standarizing data vectors ( audio and text ) => making all vectors with a similar length
+- Standarizing data vectors ( audio and text ) => making all vectors with a similar length
 
 ## FINE-TUNNING LOGIC FOR WHISPER:
-=> using "def forward", "def training_step" and "def validation_step"  => Computing loss, updating parameters and checking
+- using "def forward", "def training_step" and "def validation_step"  => Computing loss, updating parameters and checking
 performance.
-=> Loading train and validation data + Optimizer + generate predictions
+- Loading train and validation data + Optimizer + generate predictions
 
 ## TRAINER:
-=> Initializing a trainer : Using EarlyStopping + Measuring training time + Saving the best model ...
-=> Generate transcriptions (predictions) for a dataset using a trained Whisper model and compare them with reference texts
+- Initializing a trainer : Using EarlyStopping + Measuring training time + Saving the best model ...
+- Generate transcriptions (predictions) for a dataset using a trained Whisper model and compare them with reference texts

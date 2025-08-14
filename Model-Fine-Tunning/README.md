@@ -13,23 +13,23 @@
    def __iter__(self):
    
 **def load_and_preprocess_data(path,language=None, use_huggingface=False,token=None ,feature_extractor=None, tokenizer=None):**
- => Prepares data from a given source (Hugging Face / a local folder) : generating audio features + and converting transcriptions into tokenized form.
+ - Prepares data from a given source (Hugging Face / a local folder) : generating audio features + and converting transcriptions into tokenized form.
 
- => def audio_text_generator(data_dir):
-    => Takes as an input a folder ( data_dir ), the folder should contain wav files for each instance + text files that contain
+ - def audio_text_generator(data_dir):
+    - Takes as an input a folder ( data_dir ), the folder should contain wav files for each instance + text files that contain
     the transcription of each audio file.
-    => pairing audio and transcription by generating a dictionnary
-    => {
+   - pairing audio and transcription by generating a dictionnary
+     - {
          "audio": "/path/to/data_dir/sample1.wav",
          "sentence": "This is the transcription of the audio file."
        }
       
- => def prepare_dataset(batch, feature_extractor, tokenizer):
-    => Prepares a batch of Audio and Text data to be used by a model ( training task ).
-    => Extracting audio features and stores the results in a vector
-    => Tokenizing the transcription text and makes a numerical representation.2
+ - def prepare_dataset(batch, feature_extractor, tokenizer):
+    - Prepares a batch of Audio and Text data to be used by a model ( training task ).
+    - Extracting audio features and stores the results in a vector
+    - Tokenizing the transcription text and makes a numerical representation.2
     
- => Loading and splitting the dataset and apply all the preprocessing steps
+ - Loading and splitting the dataset and apply all the preprocessing steps
  
 ## MODEL PREPARATION:
 - Loading Whisper model

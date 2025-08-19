@@ -33,7 +33,7 @@
  
 ## MODEL PREPARATION:
 - Loading Whisper model
-- Define the model's task ( transcription ) and language.
+- Define the model's task ( transcription ) and language ( Breton ).
 - Feature extraction : Extractor
 - Tokenization : Tokenizer
 

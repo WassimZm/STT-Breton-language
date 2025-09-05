@@ -4,3 +4,4 @@
 * Whisper is trained on several language including Breton, and many other low-ressource languages.
 
 ## Whisper models
+There are six model sizes, four with English-only versions, offering speed and accuracy tradeoffs. Below are the names of the available models and their approximate memory requirements and inference speed relative to the large model. The relative speeds below are measured by transcribing English speech on a A100, and the real-world speed may vary significantly depending on many factors including the language, the speaking speed, and the available hardware.
